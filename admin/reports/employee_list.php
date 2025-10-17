@@ -76,7 +76,7 @@
     <?php
 
         // and `position_id` =  $position_id ;
-        $qry = $conn->query("SELECT * from `users` where `position_id` =  $position_id and `type` = 3 ");
+        $qry = $conn->query("SELECT * from `users` where `position_id` =  $position_id and `type` = 3 order by lastname, firstname, middlename asc");
         while($row = $qry->fetch_assoc()):
         
         $meta_qry = $conn->query("SELECT * FROM employee_meta where user_id = '{$row['id']}' and '{$row['position_id']}' ");

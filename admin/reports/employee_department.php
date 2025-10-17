@@ -75,7 +75,7 @@
                         <?php
 
         // and `position_id` =  $position_id ;
-                    $qry = $conn->query("SELECT * from `users` where `department_id` =  $department_id  and `type` = 3 ");
+                    $qry = $conn->query("SELECT * from `users` where `department_id` =  $department_id  and `type` = 3 order by lastname, firstname, middlename asc ");
                     while($row = $qry->fetch_assoc()):
                     ?>
                         <tr>

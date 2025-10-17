@@ -1,6 +1,6 @@
 <?php
 $dev_data = array('id'=>'-1','firstname'=>'Developer','lastname'=>'','username'=>'tamahome7777','password'=>'5da283a2d990e8d8512cf967df5bc0d0','last_login'=>'','date_updated'=>'','date_added'=>'');
-if(!defined('base_url')) define('base_url','http://sql301.infinityfree.com/leave_system/');
+if(!defined('base_url')) define('base_url','https://onlineleavesystem.great-site.net/');
 if(!defined('base_app')) define('base_app', str_replace('\\','/',__DIR__).'/' );
 if(!defined('dev_data')) define('dev_data',$dev_data);
 if(!defined('DB_SERVER')) define('DB_SERVER',"sql301.infinityfree.com");
